@@ -1,0 +1,131 @@
+ body { 
+        background-color: #000000; 
+         margin: 0px;
+    } 
+
+.cell{
+        height: 80px; 
+        width: 80px;
+        background-color: white; 
+        border: 0px transparent; 
+        border-radius: 50%; 
+        margin: 4px; 
+        padding: 4px; 
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+}
+
+.grade{
+        height: 38px; 
+        width: 120px;
+        background-color: white; 
+        border: 0px transparent; 
+        border-radius: 10px;
+        margin: 4px; 
+        padding: 4px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+}
+
+.buttons{
+    width: 290px;
+}
+
+.x{
+    width: 15px;
+    height:60px;
+    background-color: #000000;
+    transform: rotate(45deg);
+    position: absolute;
+    
+}
+
+.xonyeki{
+    width: 15px;
+    height:60px;
+    background-color: #000000;
+    transform: rotate(-45deg);
+    position: absolute;
+    
+}
+
+.o{
+     width: 60px;
+    height:60px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.oonyeki{
+    width: 35px;
+    height:35px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.winning-message{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.winning-message h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+
+.winning-message button {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+.winning-message.show{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+ /* <table>
+                <tbody>
+                    <tr>
+                        <td >
+                            <button>
+                                <div>
+                                    <svg></svg>
+                                    <span></span>
+                                </div>
+                            </button>
+                        </td>
+                        <button>
+                            <div>
+                                <svg></svg>
+                                <span></span>
+                            </div>
+                        </button>
+                    </tr>
+                </tbody>    
+            </table> */

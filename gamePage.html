@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link href="./style/gameStyle.css" rel="stylesheet">    
+     <title>Tic Tac Toe</title>
+
+</head>
+
+<body>
+
+    
+    <div class="container text-center mt-2">
+
+        <h1 style="color: white;">TIC-TAC-TOE</h1>
+
+        <br>
+        <br>
+
+        <h4 id="screen" style="color: white;"> START GAME </h4>
+        <br>
+        
+
+
+
+
+        <main id="board">
+        <div class="row justify-content-center">
+            <div class="col-4 cell" id="cell0">
+                <div class="first" id="11"></div>
+                <div class="Second" id="12"></div>
+            </div>
+            <div class="col-4 cell" id="cell1">
+                <div class="first" id="21"></div>
+                <div class="Second" id="22"></div>
+            </div>
+            <div class="col-4 cell" id="cell2">
+                <div class="first" id="31"></div>
+                <div class="Second" id="32"></div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-4 cell" id="cell3">
+                <div class="first" id="41"></div>
+                <div class="Second" id="42"></div>
+            </div>
+            <div class="col-4 cell" id="cell4">
+                <div class="first" id="51"></div>
+                <div class="Second" id="52"></div>
+            </div>
+            <div class="col-4 cell" id="cell5">
+                <div class="first" id="61"></div>
+                <div class="Second" id="62"></div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-4 cell" id="cell6">
+                <div class="first" id="71"></div>
+                <div class="Second" id="72"></div>
+            </div>
+            <div class="col-4 cell" id="cell7">
+                <div class="first" id="81"></div>
+                <div class="Second" id="82"></div>
+            </div>
+            <div class="col-4 cell" id="cell8">
+                <div class="first" id="91"></div>
+                <div class="Second" id="92"></div>
+            </div>
+        </div>
+        </main>
+
+
+
+
+
+
+
+        <br>
+        <br>
+
+        <div  class="row justify-content-center" >
+            <div class="col-6 grade ">
+     
+                        <span>O</span>
+                        <span class="ograde" data-count="1">-</span>
+            </div> 
+        
+            <div class="col-6 grade">
+                <span>X</span>
+                <span class="xgrade" data-count="1">-</span>
+            </div>
+            
+        </div>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-4 buttons">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-danger" type="button" id="clear">Restart game</button>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="winning-message" id="winning-message">
+            <h1 id="winning-message-text"> </h1>
+            <button type="button" class="btn btn-light" id="restart">play again</button>
+        </div>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
+         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+         
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
